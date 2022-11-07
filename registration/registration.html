@@ -9,26 +9,37 @@
     <script src="../registration/registrationscripts.js" defer></script>
   </head>
   <body>
-    <div>
-      <h1>My ToDo in JavaScript</h1>
-      <h2>Registration form</h2>
-      <div>
-        <form class="registrationForm" action="">
-          <label for="firstName">First Name:</label>
-          <br />
-          <input type="text" id="firstName" name="firstName" />
-          <br />
-          <label for="lastName">Last Name:</label>
-          <br />
-          <input type="text" id="lastName" name="lastName" />
-          <br />
-          <label for="email">You Email:</label>
-          <br />
-          <input type="text" id="email" name="email" />
-          <br />
-          <input type="submit" value="Send Registration" />
-        </form>
+    <div class="back">
+      <div class="infoblock">
+        <div class="title">
+          <h1>
+            My
+            <span style="color: orange;">ToDo</span>
+            in JavaScript
+          </h1>
+          <h2><span style="color: orange;">Registration form</span></h2>
+        </div>
+        <div class="contentblock">
+          <form class="registrationForm" action="">
+            <label class="fieldtitle" for="firstName">First Name:</label>
+            <br />
+            <input class="field" type="text" id="firstName" name="firstName" />
+            <br />
+            <label class="fieldtitle" for="lastName">Last Name:</label>
+            <br />
+            <input class="field" type="text" id="lastName" name="lastName" />
+            <br />
+            <label class="fieldtitle" for="email">You Email:</label>
+            <br />
+            <input class="field" type="text" id="email" name="email" />
+            <br />
+            <input class="button" type="submit" value="Send Registration" />
+          </form>
+        </div>
       </div>
+    </div>
+    <div>
+      <div></div>
     </div>
   </body>
 </html>

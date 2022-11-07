@@ -1,0 +1,82 @@
+/* APPS BACKGROUND */
+.back {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(18, 5, 89);
+  padding-bottom: 25%;
+  padding-top: 10%;
+}
+/* INFOBLOCK STYLE */
+
+.infoblock {
+  background-color: white;
+  width: 50%;
+  height: 100%;
+  margin-left: 25%;
+  margin-bottom: 20px;
+  padding-bottom: 10%;
+  padding-top: 5%;
+  border-radius: 20px;
+  border-color: #fff;
+  border: 1px solid black;
+
+  /* border-top: 50%; */
+}
+/* TITLE STYLE */
+.title {
+  width: 50%;
+  color: rgb(18, 5, 89);
+  margin-left: 25%;
+  text-align: center;
+}
+
+/* BUTTON STYLE */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #7aa8b77e;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #4192d9;
+  /* border-radius: 3px; */
+  padding: 10px 20px;
+}
+
+.buttonbar {
+  /* position: fixed;
+  top: 20px; */
+  width: 50%;
+  /* position: inherit;  */
+  height: auto;
+  border-radius: 6px;
+  background-color: rgb(28, 63, 253);
+  text-align: center;
+  margin-left: 25%;
+}
+
+.buttonbar ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+/* .menubar ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+.menubar ul li a {
+  text-decoration: none;
+  color: #fff;
+} */
+
+.help {
+  text-align: center;
+  margin-left: 50%;
+}
