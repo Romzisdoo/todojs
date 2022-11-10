@@ -1,0 +1,68 @@
+/* APPS BACKGROUND */
+/* .back {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(18, 5, 89);
+  padding-bottom: 25%;
+  padding-top: 10%;
+} */
+.navbar {
+  height: auto;
+}
+.headblock {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(18, 5, 89);
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+}
+/* BUTTON BAR STYLE  */
+
+.buttonbar {
+  background-color: white;
+  /* height: 10px; */
+  /* width: 30%;
+
+  margin-left: 30%; */
+  /* margin-bottom: 20px; */
+  /* padding-bottom: 10%; */
+  padding-top: 5%;
+  border-radius: 20px;
+  border-color: #fff;
+  border: 1px solid black;
+}
+
+/* BUTTON STYLE */
+.button {
+  display: inline-block;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #7aa8b7;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+
+  /* margin-left: 30%; */
+}
+
+.button:hover {
+  background: #4192d9;
+  /* border-radius: 3px; */
+  padding: 10px 20px;
+  color: rgb(18, 5, 89);
+}
+
+/* FOOTER STILE */
+.footerstyle {
+  height: 50px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #012840;
+  color: #fff;
+  text-align: center;
+}

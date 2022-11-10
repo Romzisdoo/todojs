@@ -23,17 +23,34 @@
           <form class="registrationForm" action="">
             <label class="fieldtitle" for="firstName">First Name:</label>
             <br />
-            <input class="field" type="text" id="firstName" name="firstName" />
+            <input
+              class="field"
+              type="text"
+              id="firstName"
+              name="firstName"
+              required
+            />
             <br />
             <label class="fieldtitle" for="lastName">Last Name:</label>
             <br />
-            <input class="field" type="text" id="lastName" name="lastName" />
+            <input
+              class="field"
+              type="text"
+              id="lastName"
+              name="lastName"
+              required
+            />
             <br />
             <label class="fieldtitle" for="email">You Email:</label>
             <br />
-            <input class="field" type="text" id="email" name="email" />
+            <input class="field" type="text" id="email" name="email" required />
             <br />
-            <input class="button" type="submit" value="Send Registration" />
+            <input
+              class="button"
+              type="submit"
+              value="Send Registration"
+              onclick="submitForm"
+            />
           </form>
         </div>
       </div>

@@ -6,24 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login to My ToDo</title>
     <link rel="stylesheet" href="../login/loginstyle.css" />
-    <script src="../login/sloginscripts.js" defer></script>
+    <script src="../login/loginscripts.js" defer></script>
   </head>
   <body>
-    <div>
-      <h1>My ToDo in JavaScript</h1>
-      <h2>Login form</h2>
-      <div>
-        <form class="rloginForm" action="">
-          <label for="firstName">First Name:</label>
-          <br />
-          <input type="text" id="firstName" name="firstName" />
-          <br />
-          <label for="lastName">Last Name:</label>
-          <br />
-          <input type="text" id="lastName" name="lastName" />
-          <br />
-          <input type="submit" value="Login" />
-        </form>
+    <div class="back">
+      <div class="infoblock">
+        <div class="title">
+          <h1>
+            My
+            <span style="color: orange;">ToDo</span>
+            in JavaScript
+          </h1>
+          <h2><span style="color: orange;">Login form</span></h2>
+          <div class="contentblock">
+            <form class="rloginForm" action="">
+              <label for="firstName">First Name:</label>
+              <br />
+              <input
+                class="field"
+                type="text"
+                id="firstName"
+                name="firstName"
+              />
+              <br />
+              <label for="lastName">Last Name:</label>
+              <br />
+              <input class="field" type="text" id="lastName" name="lastName" />
+              <br />
+              <input class="button" type="submit" value="Login" />
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   </body>

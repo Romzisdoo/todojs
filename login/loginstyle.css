@@ -1,0 +1,62 @@
+/* APPS BACKGROUND */
+.back {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(18, 5, 89);
+  padding-bottom: 25%;
+  padding-top: 10%;
+}
+/* INFOBLOCK STYLE */
+
+.infoblock {
+  background-color: white;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 20px;
+  padding-bottom: 10%;
+  padding-top: 5%;
+  border-radius: 20px;
+  border-color: #fff;
+  border: 1px solid black;
+
+  /* border-top: 50%; */
+}
+/* TITLE STYLE */
+.title {
+  width: 50%;
+  color: rgb(18, 5, 89);
+  margin-left: 25%;
+  text-align: center;
+}
+.rloginForm {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.field {
+  width: 100%;
+  height: 25px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 50px;
+  border-color: rgb(18, 5, 89);
+}
+/* BUTTON STYLE */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #7aa8b7;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #4192d9;
+  /* border-radius: 3px; */
+  padding: 10px 20px;
+  color: rgb(18, 5, 89);
+}
