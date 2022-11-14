@@ -70,3 +70,17 @@ function showUserName(data) {
 }
 
 getUsers()
+
+//ALGORITMAS STEP BY STEP///////
+
+///1// HTML forma>> /"Firstname", "lastName", "submit"/>>> HTML tag>>>
+
+///2// DB  base >> /"firstname", "lastname", "id"/>>> SUKURIAM FUNKCIJA "userUnic">>>
+
+///3// FUNKCIJA "userUnic"  >> Algoritmas tikrina ar vykdant "login" db yra toks vardas ir pavarde su vienodu ID >>
+//jei toks irasas yra "userUnic" funkcijai leidziama persijungti i todo.app, jei n4ra ALERT lentele
+
+///>>>///
+/// ToDoList page rodomas sarasas visu irasu su filtru atitinkanciu "userUnic" funkcijos kriterijus
+///>>>// Tas pats fragmentas atkartojamas regitracijos formoje,perjungiant i ToDoList paga
+///>>>// "userUnic" funkcijos info (vardas ir pavarde ) papildomai isvedami ToDoList page, kaip, prisijungusio asmens duomenys
