@@ -14,6 +14,12 @@
         Hello user:
         <span id="reguser"></span>
       </div>
+      <div class="registruotas">
+        <div>
+          <p>Vardas</p>
+          <p>Pavarde</p>
+        </div>
+      </div>
     </header>
     <nav>
       <div class="headblock">
@@ -28,15 +34,86 @@
     <main></main>
     <div class="back">
       <div class="infoblock"></div>
-      <div>
-        <div>
-          <h3></h3>
-        </div>
-        <div>
-          <h3></h3>
-        </div>
-        <div>
-          <h3></h3>
+      <div></div>
+    </div>
+    <div>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <!-- <p>Some text in the Modal..</p> -->
+          <!-- ITERPTA PRADZIA -->
+          <form class="editPostForm" action="">
+            <div class="atd-form-block">
+              <label for="id">Id</label>
+              <input type="text" id="id" name="id" disabled />
+              <br />
+              <!-- <label class="fieldtitle" for="firstName">First Name</label>
+              <input
+                class="field"
+                type="text"
+                id="firstName"
+                name="firstName"
+                required
+              />
+              <br /> -->
+              <!-- <label class="fieldtitle" for="lastName">Last Name</label>
+              <input
+                class="field"
+                type="text"
+                id="lastName"
+                name="lastName"
+                required
+              /> -->
+              <!-- <br />
+              <label class="fieldtitle" for="email">You Email:</label>
+              <br />
+              <input class="field" type="email" id="email" name="email" />
+              <br /> -->
+              <label class="fieldtitle" for="todoType">Type</label>
+              <!-- <select name="todoType" id="todoType"></select>
+              <option value="purchases">Pirkimai</option>
+              <option value="sales">Pardavimai</option> -->
+              <!-- https://www.w3schools.com/html/html_form_elements.asp -->
+
+              <input class="field" type="text" id="todoType" name="todoType" />
+              <br />
+              <label class="fieldtitle" for="todoContent">Content</label>
+              <input
+                class="field"
+                type="text"
+                id="todoContent"
+                name="todoContent"
+              />
+              <br />
+              <label class="fieldtitle" for="todoEndDate">End Date</label>
+              <input
+                class="field"
+                type="datetime-local"
+                id="todoEndDate"
+                name="todoEndDate"
+              />
+              <br />
+              <label class="fieldtitle" for="todoStatus">
+                Užduoties statusas
+              </label>
+              <input
+                class="field"
+                type="text"
+                id="todoStatus"
+                name="todoStatus"
+              />
+              <br />
+              <input
+                class="button"
+                type="submit"
+                value="Išsaugoti pakeitimus"
+                onclick="submitForm"
+              />
+            </div>
+          </form>
+          <!-- ITERPTA PABAIGA  -->
         </div>
       </div>
     </div>

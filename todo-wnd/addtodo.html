@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My ToDo</title>
     <link rel="stylesheet" href="../todo-wnd/todostyle.css" />
-    <script src="../todo-wnd/todoscript.js" defer></script>
+    <script src="../todo-wnd/addtodo.js" defer></script>
   </head>
   <body>
     <header class="navbar">
@@ -26,20 +26,74 @@
       </div>
     </nav>
     <main>
-      <div class="back">
-        <div class="infoblock">
-          <div class="form">
-            <label for="">Type</label>
-            <input type="text" />
-            <br />
-            <label for="">Content</label>
-            <input type="text" />
-            <br />
-            <label for="">End Date</label>
-            <input type="text" />
-            <br />
-            <input class="button" type="submit" />
-          </div>
+      <div class="atd-back">
+        <div class="atd-infoblock">
+          <form class="createPostForm" action="">
+            <div class="atd-form-block">
+              <label class="fieldtitle" for="firstName">First Name</label>
+              <input
+                class="field"
+                type="text"
+                id="firstName"
+                name="firstName"
+                required
+              />
+              <br />
+              <label class="fieldtitle" for="lastName">Last Name</label>
+              <input
+                class="field"
+                type="text"
+                id="lastName"
+                name="lastName"
+                required
+              />
+              <br />
+              <label class="fieldtitle" for="email">You Email:</label>
+              <br />
+              <input class="field" type="email" id="email" name="email" />
+              <br />
+              <label class="fieldtitle" for="todoType">Type</label>
+              <!-- <select name="todoType" id="todoType"></select>
+              <option value="purchases">Pirkimai</option>
+              <option value="sales">Pardavimai</option> -->
+              <!-- https://www.w3schools.com/html/html_form_elements.asp -->
+
+              <input class="field" type="text" id="todoType" name="todoType" />
+              <br />
+              <label class="fieldtitle" for="todoContent">Content</label>
+              <input
+                class="field"
+                type="text"
+                id="todoContent"
+                name="todoContent"
+              />
+              <br />
+              <label class="fieldtitle" for="todoEndDate">End Date</label>
+              <input
+                class="field"
+                type="datetime-local"
+                id="todoEndDate"
+                name="todoEndDate"
+              />
+              <br />
+              <label class="fieldtitle" for="todoStatus">
+                Užduoties statusas
+              </label>
+              <input
+                class="field"
+                type="text"
+                id="todoStatus"
+                name="todoStatus"
+              />
+              <br />
+              <input
+                class="button"
+                type="submit"
+                value="Pateikti"
+                onclick="submitForm"
+              />
+            </div>
+          </form>
         </div>
       </div>
     </main>
